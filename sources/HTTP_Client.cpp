@@ -44,7 +44,7 @@ void HTTP_Client::start()
   beast::error_code ec;
   stream.socket().shutdown(net::ip::tcp::socket::shutdown_both, ec);
 
-  if(ec && ec != beast::errc::not_connected)
+  if (ec && ec != beast::errc::not_connected)
     throw beast::system_error{ec};
 }
 
