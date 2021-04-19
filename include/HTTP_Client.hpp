@@ -1,4 +1,4 @@
-// Copyright 2021 Danil Postvaykin <postvaykin01@mail.ru>
+// Copyright 2021 Alexandr Guchkov <firer.a45@gmail.com>
 
 #ifndef INCLUDE_HTTP_CLIENT_HPP_
 #define INCLUDE_HTTP_CLIENT_HPP_
@@ -10,7 +10,6 @@
 #include <boost/asio/connect.hpp>
 #include <boost/config.hpp>
 #include <nlohmann/json.hpp>
-#include <cstdlib>
 #include <iostream>
 #include <string>
 
